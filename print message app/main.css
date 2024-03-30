@@ -1,0 +1,43 @@
+*{
+   box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace ,sans-serif;
+}
+.print-message-box{
+   padding: 20px 15px;
+    width: 600px;
+    background-color: #f6f6f6;
+    border: 1px solid #6f6f6f;
+}
+input,
+button{
+    width: 100%;
+   padding: 5px ;
+   margin-bottom: 5px; 
+   font-family: monospace, sans-serif;
+   font-size: 20px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    opacity: 0.7;
+    transition:0.5s;
+    background-color: brown;
+    color: #fff;
+}
+button:hover{
+    opacity: 1;
+}
+p{
+    color: green;
+    margin: 5px 0 0 0;
+    font-size: 20px;
+}
